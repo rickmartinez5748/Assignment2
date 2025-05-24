@@ -1,0 +1,16 @@
+
+Create virtual environment
+
+python -m venv venv
+
+Allow Powershell Scripts
+
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
+
+Activate virtual environment
+
+.\venv\Scripts\Activate
+
+------------------------------------------------------------------
+response=requests.get(url)
+data=response.json()
