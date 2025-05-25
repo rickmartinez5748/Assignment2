@@ -2189,3 +2189,8 @@ input, select, textarea {
 			}
 
 		}
+			.edu-detail {
+			display: block;
+			margin-left: 20px;
+			color: #555;
+			}
