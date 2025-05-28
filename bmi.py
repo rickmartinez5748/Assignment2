@@ -1,3 +1,5 @@
+#Function to calculate BMI
+
 def bmi_calculation(weight, height):
     weight = float(weight)
     height = float(height)
